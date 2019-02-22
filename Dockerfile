@@ -2,7 +2,7 @@
 # Geckodriver Dockerfile
 #
 
-FROM blueimp/basedriver
+FROM allthings/basedriver
 
 # Install the latest version of Firefox:
 RUN export DEBIAN_FRONTEND=noninteractive \
